@@ -12,6 +12,9 @@ print(f'RNA sequence: {rand_rna_seq}')
 # count nucleotides in DNA and RNA sequences
 print(f'DNA nucleotide frequencies: {nuc_frequency(rand_dna_seq)}')
 print(f'RNA nucleotide frequencies: {nuc_frequency(rand_rna_seq)}')
+print(' '.join([str(val) for key, val in nuc_frequency(rand_dna_seq).items()]))
+
+
 
 
 
